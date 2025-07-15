@@ -11,7 +11,6 @@ import (
 var DB *sql.DB
 
 func InitDB() {
-	// Format: username:password@tcp(host:port)/database_name
 	dsn := "root@tcp(127.0.0.1:3306)/webcrawler"
 
 	var err error
